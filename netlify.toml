@@ -1,0 +1,4 @@
+[build.environment]
+  ENV_NAME_FOR_ALL_BRANCHES = "env value for all branches"
+[context.{branch}.environment]
+  BRANCH_SPECIFIC_ENV_NAME = "branch specific env value"
